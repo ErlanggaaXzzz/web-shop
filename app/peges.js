@@ -399,9 +399,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const totalAkhir = hargaProdukTerpilih + pajakAkhir;
         const namaMetodePembayaran = document.querySelector(`.payment-method[data-method="${metodePembayaranTerpilih}"] span`).textContent;
 
-        let pesan = `Halo Admin FauziHost!\n\nSaya ingin memesan hosting dengan detail sebagai berikut:\n\n`;
+        let pesan = `Halo Admin Erlangga!\n\nSaya ingin memesan hosting dengan detail sebagai berikut:\n\n`;
         pesan += `Informasi Akun:\n`;
-        pesan += `Nama Pengguna: ${namaPengguna}.fauzihost.biz.id\n`;
+        pesan += `Nama Pengguna: ${namaPengguna}\n`;
         pesan += `Surel: ${surel}\n\n`;
         pesan += `Detail Pesanan:\n`;
         pesan += `Paket Hosting: ${namaProdukTerpilih}\n`;
